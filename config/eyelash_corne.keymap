@@ -62,7 +62,7 @@
                          &kp LGUI  &lt 1 LG(C)  &lt 0 SPACE                                               &lt 3 ENTER  &lt 2 LG(V)  &kp RALT
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp LG(LS(LEFT_BRACKET)) LG(LS(RIGHT_BRACKET))>;
         };
 
         raise_layer {
@@ -86,7 +86,7 @@
                                        &trans     &trans    &kp SPACE                                              &kp RET    &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         layer_3 {
